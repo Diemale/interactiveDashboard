@@ -19,7 +19,7 @@ We carried out the entire investigation using **Python** as our programming lang
 
 Our first step was to transform the data. To do so, we used the following Python libraries, **pandas**, **numpy**, and **seaborn**. We also used the **os** module to manage directories. The changes made were as follows:
 
-- Conversion of missing values to Nan data type (they appeared as char '?')
+- Conversion of missing values to Nan data type (they originally appeared as char '?')
 - Elimination of metadata columns
 - Normalization of column names  and their letter case
 - Elimination of rows when null records of the columns represented a low percentage of the total (less than 16%)
