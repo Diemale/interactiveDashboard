@@ -26,8 +26,8 @@ Our first step was to transform the data. To do so, we used the following Python
 - Elimination of fields with a high percentage of missing values
 - We converted some columns with string data types from object to numeric or date types.
 - We sought inconsistencies in the way of adding up fatalities. Then, we corrected them when necessary, using external sources for this task.
-- Detection and correction outliers.
-- Creation of a column to store the names of the countries of the accidents.
+- Detection and correction of outliers.
+- Creation of a column to store the names of the countries where the accidents occurred.
 - Replacement of data holding US States' names with the name of that country.
 - We did something similar with regions and cities in the rest of the world, changing the original data for the corresponding country.
 - We created a "Collisions" column to record accidents involving two or more aircraft.
